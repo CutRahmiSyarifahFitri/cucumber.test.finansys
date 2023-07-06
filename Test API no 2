@@ -1,0 +1,26 @@
+2.	Design 1 more requirement which you think are missing most and implement a verification test.
+menurut saya mengganti boolean bukan string pada "twoFactorCode": "string", karena pada response (/api/identity/authentication/authenticate) 
+menampilkan boolean pada (    "requiresTwoFactor": true) 
+
+
+Pada response dari (https://demo.finansysapps.id/api/identity/authentication/authenticate)
+Schema: 
+{
+  "success": true,
+  "message": "string",
+  "data": {
+    "succeeded": true,
+    "isLockedOut": true,
+    "isNotAllowed": true,
+    "requiresTwoFactor": true
+  }
+}
+
+dan pada POST (/api/identity/authentication/loginwith2fa) me-request :
+schema:
+{
+  "rememberMachine": true,
+  "isPersistent": true,
+  "twoFactorCode": "string"
+}
+
