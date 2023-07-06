@@ -1,0 +1,15 @@
+Untuk UI test:
+- Anda me-install selenium 
+- Anda me-install Java
+- Anda import project "cucumber.test.finansys"
+- Kemudian anda instal cucumber pada market place eclipse
+
+
+Untuk API test:
+- Bisa dilihat pada class java API_test_finansys
+- kemudian anda tinggal run 
+- Akan tampil hasilnya pada console berupa json
+Untuk API test yang ini (2.	Design 1 more requirement which you think are missing most and implement a verification test), 
+bisa dilihat pada file (C:\Users\RAZI\eclipse-workspace\cucumber.test.finansys/Test API no 2)
+
+Terima kasih.
